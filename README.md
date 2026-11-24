@@ -4,12 +4,12 @@
 [![rank](https://make.fun/badge/tiny-chess-01/bjh33396fan-hash/ranye/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 [![reward](https://make.fun/badge/tiny-chess-01/bjh33396fan-hash/ranye/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
-A compact chess engine written in Python for the make.fun 4 KB chess bounty. Work in progress.
+A chess engine in 4 KB of Python: alpha-beta with iterative deepening, transposition table, null move, late move reductions, check extension, quiescence and tapered piece-square tables. Fixed node budget, so every move is reproducible.
 
 ## Run it
 
 ```sh
-python3 main.py
+MAKEFUN_ENV_URL=http://env python3 main.py
 ```
 
 ---
